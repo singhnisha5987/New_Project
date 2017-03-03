@@ -1,0 +1,26 @@
+class Sg
+{
+   private double width;
+   
+   public void setwidth(w)
+   {
+      width=(w>0)?w:1;
+   }
+   public void getwidth()
+   {
+      return width;
+   }
+}
+class SetterGetter
+{
+   public static void main(String[] args)
+   {
+         double ret;
+         Sg obj=new Sg();
+         obj.setwidth();
+         ret=obj.getwidth();
+         System.out.println("width is"+ret);
+         
+         
+   }  
+}
